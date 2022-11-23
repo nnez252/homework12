@@ -1,6 +1,6 @@
 public class Book {
-    String name;
-    int age;
+  private   String name;
+    private int age;
 
     public Book(String name, int age) {
         this.name = name;
