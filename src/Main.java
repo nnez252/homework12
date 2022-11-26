@@ -8,5 +8,8 @@ public class Main {
         Author authorbook2 = new Author("Чак ", "Паланик");
         Book book2 = new Book("Бойцоский клуб  ",authorbook2 , 1996);
         System.out.println("Книга вторая : " + book2.getname()  +"Автор "+authorbook2.getName()+authorbook2.getSurName()+" год издательства "+ book2.getAge());
+        System.out.println(book1.hashCode());
+        System.out.println(book2.hashCode());
+        System.out.println(book1.equals(book2));
     }
 }
