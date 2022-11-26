@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Author authorbook1 = new Author("Джордан ", "Белфорт");
         Book book1 = new Book("Волк с Уолл-Стрит ", authorbook1 , 2007);
-        System.out.println("Книга первая : " + book1.getname()  +"Автор "+authorbook1.getName()+authorbook1.getSurName()+" год издательства "+ book1.getAge());
+        System.out.println(book1);
         book1.setAge(2008);
         System.out.println("book1.getAge() = " + book1.getAge());
         Author authorbook2 = new Author("Чак ", "Паланик");
