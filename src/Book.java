@@ -25,6 +25,11 @@ public class Book {
         return this.name;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+
+    }
+
     @Override
     public String toString() {
         return "Книга" +
@@ -44,10 +49,5 @@ public class Book {
     @Override
     public int hashCode() {
         return Objects.hash(name, author, age);
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-
     }
 }
